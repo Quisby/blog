@@ -1,0 +1,35 @@
+/* Minimalist Single-File CSS */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  color: #111;
+  margin-top: 2em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+pre, code {
+  background: #eee;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
